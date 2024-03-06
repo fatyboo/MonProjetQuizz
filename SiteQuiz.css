@@ -1,0 +1,286 @@
+* {
+   margin: 0;
+   padding: 0; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/In.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+.header h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.header h3{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+nav {
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 155px;
+}
+.nav-links{
+    flex: 20;
+    text-align: right;
+    background-color:blue;
+    width: 150px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    background-color: blue;
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: blue;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: blue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+   width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: blue;
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box p{
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+}
+.mon-bouton{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 35px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.mon-bouton:hover{
+    border: 1px solid blue;
+    background: blue;
+    transition: 1s;
+}
+.Titr{
+    margin: auto;
+    padding-top:40px;
+    
+}
+.row{
+    margin-top:10%;
+    display: flex;
+    justify-content: space-between;
+    flex:30%;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    
+}
+.info{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.info-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.info-col{
+    padding: 10px;
+    color: white;
+}
+
+.info-col h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.info-col img{
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.cla{
+    padding: 10px;
+    color: white;
+}
+
+.cla h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.cla img{
+    width: 40%;
+    border-radius: 10px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sponsor{
+    border-radius: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 3% 4%;
+    position: relative;
+    text-align: center;
+         
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
+
+
+.text {
+    text-align:justify;
+    line-height:2;
+  
+    
+}
+.text h1 {
+    color: blue;
+
+}
+
+.text{
+    opacity:0.9;
+    color:blue;
+    
+    border-width: 20px;
+    border-style: ridge;
+    border-color: blue;
+    border-radius: 20px 30px 10px 5px;
+    background-color:white;
+    
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 15px;
+    
+    margin-left: 40px;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    float: right;
+}
+
+
+
+
+
+
+
